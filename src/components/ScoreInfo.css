@@ -1,0 +1,25 @@
+.score-info__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.score-info__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1.25rem 0.5rem;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.score-info__empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.score-info__empty-hint {
+  font-size: 0.82rem;
+  max-width: 240px;
+}

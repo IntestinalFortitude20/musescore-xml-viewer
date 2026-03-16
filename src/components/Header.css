@@ -1,0 +1,46 @@
+.header {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 1rem;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-icon {
+  font-size: 1.75rem;
+}
+
+.header-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header-tagline {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  opacity: 0.85;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .header-title {
+    font-size: 1.75rem;
+  }
+
+  .header-tagline {
+    font-size: 1rem;
+  }
+}
